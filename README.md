@@ -6,7 +6,9 @@ iOS 开发规范，操作错误的，请向对方立刻发放 **10 元红包**
 
 ###编码
 - 除初始化布局的函数外，每个函数长度不超过50行
-- 每个UIView的实例对象变量名都需要体现类型```Swift
+- 每个UIView的实例对象变量名都需要体现类型
+ 
+```Swift
   let titleLabel = UILabel()
 ```
 
@@ -19,10 +21,9 @@ iOS 开发规范，操作错误的，请向对方立刻发放 **10 元红包**
 - 两个函数之间需有一个换行
 - 所有注释掉的代码函数或者空的函数都需要写说明否则删除
 - 表示跳转到某个页面的方法以动词<code>go</code>开头
+
 ```Swift
-     private func goNewsDetailViewController(){
-        
-    }
+     private func goNewsDetailViewController(){}
 ```
 
 ###项目
