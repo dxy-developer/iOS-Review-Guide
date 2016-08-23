@@ -32,7 +32,7 @@ iOS 开发规范，操作错误的，请向对方立刻发放 **10 元红包**
 
 ###项目
 - 不允许提交 PodLock 文件至 Git
-- 每次 Commit 需要说清楚所有功能，尽量分拆功能 Commit，参见[写出好的 commit message](http://blog.csdn.net/twlkyao/article/details/17586999)
+- 每次 Commit 需要说清楚所有功能，尽量分拆功能 Commit，参见[《写出好的 commit message》](http://blog.csdn.net/twlkyao/article/details/17586999)
 - 当subview数量小于等于2时不使用xib
 - push之前项目在本地可以编译成功
 - viewController除非必要不要使用xib
