@@ -30,7 +30,16 @@ iOS 开发规范，操作错误的，请向对方立刻发放 **10 元红包**
 ```Swift
      private func setupTableView(){}
 ```
-
+- 结构体、类、函数的实现大括号前有一个空格，否则罚一元（16.10.15开始执行）
+```Swift
+     class Order {
+     
+     }
+     
+     func addDingdangForShareArticle() {
+     
+     }
+```
 ###项目
 - 不允许提交 PodLock 文件至 Git
 - 每次 Commit 需要说清楚所有功能，尽量分拆功能 Commit，参见[《写出好的 commit message》](http://blog.csdn.net/twlkyao/article/details/17586999)
